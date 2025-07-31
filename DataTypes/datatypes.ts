@@ -25,6 +25,10 @@ anything = () => console.log("This is a function"); // can also be a function
 anything(); // calling the function
 anything = true; // can also be a boolean
 console.log("Any (boolean):", anything);
+//unknown
+let unknown=123;
+//unknown="usha"; //only assigned datatype will take in unknown 
+
 //void
 function logMessage(message: string): void {
     console.log("Log:", message);
